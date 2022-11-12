@@ -1,0 +1,14 @@
+<nav>
+    <div class="logo"><span>w</span>heel</div>
+    <div class="menu" [class.menul]="sh">
+        <a  routerLink="home">home </a>
+        <a  routerLink="about">about </a>
+        <a  routerLink="contact">contact </a>
+        <a  routerLink="footer">footer </a>
+    </div>
+    <div class="icon"  [class.wi]="sh" (click)="showHide()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</nav>
